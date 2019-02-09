@@ -68,7 +68,6 @@ body{
 
 #welcome img{
   position: absolute;
-  width: 300px;
   top: 50%;
   left: 50%;
   opacity:0;
@@ -125,6 +124,11 @@ footer{
 }
 
 /*********** SLIDERS ***********/
+
+
+.hidden-arrow{
+  overflow: hidden;
+}
 
 .slider-work{
   padding:60px 0px
@@ -278,6 +282,10 @@ a.contact-info:hover{
   .list-detail li span{
     left: -3em;
   }
+  
+  #welcome img{
+    width: 300px;
+  }
 }
 
 @media( max-width: 600px ){
@@ -308,6 +316,9 @@ a.contact-info:hover{
     left: 0em;
   }
 
+  #welcome img{
+    width: 200px;
+  }
   
 }
 
