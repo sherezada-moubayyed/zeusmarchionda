@@ -171,20 +171,11 @@ footer{
   color:white
 }
 
-
 .slider-work .slick-prev,
 .slider-work .slick-next{
   z-index: 100 !important;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-}
-
-.slider-work .slick-prev{
-  left: -64px !important;
-}
-
-.slider-work .slick-next {
-  right: -18px !important;
 }
 
 .slider-work:hover .slick-prev{
@@ -286,6 +277,15 @@ a.contact-info:hover{
   #welcome img{
     width: 300px;
   }
+
+  .slider-work .slick-prev{
+    left: -64px !important;
+  }
+  
+  .slider-work .slick-next {
+    right: -18px !important;
+  }
+
 }
 
 @media( max-width: 600px ){
@@ -295,7 +295,8 @@ a.contact-info:hover{
   }
 
   .border-left{
-    padding-left: 0px !important
+    padding-left: 0px !important;
+    padding-top: 15px !important;
   }
 
   .contact-list{
@@ -318,6 +319,14 @@ a.contact-info:hover{
 
   #welcome img{
     width: 200px;
+  }
+
+  .slider-work .slick-prev {
+    left: -14px !important;
+  }
+
+  .slider-work .slick-next {
+    right: 22px !important;
   }
   
 }
