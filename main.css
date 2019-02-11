@@ -252,6 +252,10 @@ a.contact-info:hover{
   line-height: inherit;
 }
 
+i.medium {
+  font-size: 3rem !important;
+}
+
 @media (min-width: 601px){
   .border-left{
     border-left: 1px solid #007765;
@@ -322,7 +326,7 @@ a.contact-info:hover{
   }
 
   .slider-work .slick-prev {
-    left: -14px !important;
+    left: -4px !important;
   }
 
   .slider-work .slick-next {

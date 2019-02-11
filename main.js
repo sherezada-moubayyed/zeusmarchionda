@@ -23,6 +23,7 @@ $(document).ready(function(){
    */
   $('.slider-work').slick({
     slidesToScroll: 1,
+    slidesToShow: 3,
     autoplay: false,
     arrows: true,
     prevArrow: '<button type="button" class="slick-prev custom-arrow"><i class="material-icons medium">keyboard_arrow_left</i></button>',
